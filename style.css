@@ -1,0 +1,10 @@
+div {
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background: green;    
+}
+
+body {
+    background: blue;
+}
