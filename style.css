@@ -2,13 +2,39 @@
     height: 200px;
     width: 200px;
     background: green;  
-    display: inline-block;  
+    display: block;  
     max-width: 50px;
     margin: auto;
     padding: 100px;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
             box-sizing: border-box;
+
+
+    /* No postion */
+    /* position: static; */
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.absolute {
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+    width: 200px;
+    height: 200px;
+    background: green;
+
 }
 
 body {
