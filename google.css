@@ -1,0 +1,58 @@
+.end {
+    display: -webkit-flex;
+    display: flex;
+    /* -webkit-justify-content: flex-end; */
+    justify-content: flex-end;
+}
+
+.padding {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.logo {
+    width: 272px;
+    margin: auto;
+}
+
+.top-padding {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.search {
+    width: 561px;
+    height: 44px;
+    background: yellow;
+    margin: auto;
+}
+
+.shortcut {
+    max-width: 600px;
+    /* display: inline-block; */
+    margin: auto;
+    padding-top: 40px;
+    text-align: -webkit-center;
+    /* position: absolute;
+    left: 225px; */
+    /* padding-left: 180px;
+    padding-right: 300px; */
+
+}
+
+.customize {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.words {
+    height: 44px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}

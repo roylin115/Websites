@@ -2,10 +2,11 @@
     height: 200px;
     width: 200px;
     background: green;  
-    display: block;  
+    display: inline-block;  
     max-width: 50px;
-    margin: auto;
+    margin: 10px;
     padding: 100px;
+    margin-bottom: 40px;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -16,12 +17,53 @@
     position: relative;
     top: 50px;
     left: 10px;
-    float: left;
+}
+
+.boxed {
+    width: 200px;
+    height: 200px;
+    background: green;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+.margin {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.float {
+    width: 200px;
+    height: 200px;
+    float: right;
+    background: green;
 }
 
 .clear {
-    clear:left;
+    clear: left;
 }
+
+.clearfix {
+    /* stretches container to match picture */
+    overflow: auto;
+    min-width: 100px;
+    min-height: 100px;
+    zoom: 1;
+    background: green;
+}
+
+.three-column {
+    padding: 1em;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
+  }
 
 .fixed {
     position: fixed;

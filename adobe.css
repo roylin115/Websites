@@ -1,0 +1,113 @@
+.logo {
+    width: 68px;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: -webkit-flex;
+    align-items: center;
+    text-align: -webkit-center;
+    float: left;
+    margin-left: 75px;
+
+}
+
+nav{
+    float: left;
+    /* display: flex; */
+    height: 80px;
+    margin: auto;
+    /* text-align: -webkit-center; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-right: 200px; */
+    position: relative;
+    top: 32px;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+.nav {
+    display: inline-block;
+
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search {
+    position: relative;
+    top: 32px;
+    /* float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.float {
+    float: left;
+}
+
+.main {
+    position: relative;
+    left: 85px;
+    top: 60px;
+}
+
+.bold {
+    position: relative;
+    left: 670px;
+    top: -170px;
+    font-size: 30px;
+    width: 300px;
+}
+
+.desc {
+    position: relative;
+    left: 640px;
+    top: -130px;
+    width: 450px;
+}
+
+.inline {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    overflow: auto;
+    border-top: 1px black solid;
+
+}
+
+aside {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.bubble {
+    border: blue 1px solid;
+    background: blue;
+    color: white;
+    width: 110px;
+    position: relative;
+    left: 780px;
+    top: -100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.bubble2 {
+    border: black 1px solid;
+    background: white;
+    color: black;
+    width: 110px;
+    position: relative;
+    /* left: 780px;
+    top: -100px; */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
